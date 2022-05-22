@@ -83,7 +83,53 @@
   
 4. ### What is “closure” in javascript?
 
+    A closure is a function defined inside another function (called parent function) and as such it has access to the variables declared and defined         within its parent function's scope.
 
+    The closure has access to the variables in three scopes:
+
+    - Variable declared in its own scope
+    - Variable declared in its parent function's scope
+    - Variable declared in the global namespace
+
+    ```javascript
+    var globalVar = "abc"; //Global variable
+
+    // Parent self-invoking function
+    (function outerFunction (outerArg) { // start of outerFunction's scope
+
+      var outerFuncVar = 'x'; // Variable declared in outerFunction's function scope   
+
+      // Closure self-invoking function
+      (function innerFunction (innerArg) { // start of innerFunction's scope
+
+        var innerFuncVar = "y"; // variable declared in innerFunction's function scope
+        console.log(         
+          "outerArg = " + outerArg + "\n" +
+          "outerFuncVar = " + outerFuncVar + "\n" +
+          "innerArg = " + innerArg + "\n" +
+          "innerFuncVar = " + innerFuncVar + "\n" +
+          "globalVar = " + globalVar);
+
+      // end of innerFunction's scope
+
+      })(5); // Pass 5 as parameter to our Closure
+
+    // end of outerFunction's scope
+
+    })(7); // Pass 7 as parameter to the Parent function
+    ```
+
+    `innerFunction` is a closure which is defined inside `outerFunction` and consequently has access to all the variables which have been declared and        defined within `outerFunction`'s scope as well as any variables residing in the program's global scope.
+
+    The output of the code above would be:
+
+    ```javascript
+    outerArg = 7
+    outerFuncVar = x
+    innerArg = 5
+    innerFuncVar = y
+    globalVar = abc
+    ```
 
 **[⬆ Back to Top](#table-of-contents-for-theoretical-questions)**
    
