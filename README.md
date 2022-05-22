@@ -26,7 +26,7 @@
         that used for both on the client-side and server-side that allows you to 
         make web pages interactive.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Back to Top](#table-of-contents-for-theoretical-questions)**
 
 #### 59. What is the output of below code?
 
@@ -53,5 +53,7 @@ Hoisting will move variables and functions to be the top of scope. Even though g
 </p>
 
 </details>
+
+ **[⬆ Back to Top](#table-of-contents-for-logical-questions)**
 
 ---
