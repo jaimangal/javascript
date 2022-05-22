@@ -27,6 +27,8 @@
         make web pages interactive.
 
    **[⬆ Back to Top](#table-of-contents-for-theoretical-questions)**
+   
+  ---
 
 1. ### What is the output of below code?
 
