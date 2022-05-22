@@ -21,7 +21,8 @@
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | [What is the output of below code](#What-is-the-output-of-below-code)   |                                     
 | 2   | [For which value of `x` the results of the following statements are not the same](#For-which-value-of-x-the-results-of-the-following-statements-are-not-the-same)      |
-| 3   | [What will be the output of the following code](#What-will-be-the-output-of-the-following-code)   
+| 3   | [What will be the output of the following code](#What-will-be-the-output-of-the-following-code)      |
+| 4   | [What will be the output of the following code](#What-will-be-the-output-of-the-following-code)
 
 ---
 
@@ -213,6 +214,32 @@
     </p>
 
     </details>
+
+ **[⬆ Back to Top](#table-of-contents-for-logical-questions)**
+
+---
+
+4. ## What will be the output of the following code?
+
+```javascript
+var z = 1, y = z = typeof y;
+console.log(y);
+```
+<details><summary><b>Answer</b></summary>
+<p>
+The code above will print string `"undefined"` as output. According to associativity rule operator with the same precedence are processed based on their associativity property of operator. Here associativity of the assignment operator is `Right to Left` so first `typeof y` will evaluate first which is string `"undefined"` and assigned to `z` and then `y` would be assigned the value of z. The overall sequence will look like that: 
+</p>
+    
+```javascript
+var z;
+z = 1;
+var y;
+z = typeof y;
+y = z;
+```
+
+</details>
+
 
  **[⬆ Back to Top](#table-of-contents-for-logical-questions)**
 
