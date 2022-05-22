@@ -9,8 +9,7 @@
 | No. | Questions                                                                                                                                                         |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | [What is JavaScript](#what-is-javascript)                                         |
-| 2   | [What is prototype chain](#what-is-a-prototype-chain)                                                                                                             |                                                                                                                       |
-| 435 | [What is throttling?](#what-is-throttling)
+| 2   | [What are the scopes of a variable in JavaScript](#What-are-the-scopes-of-a-variable-in-JavaScript)                                                                                             
 
 ---
 
@@ -27,11 +26,27 @@
      => JavaScript is a lightweight, interpreted programming language with object-oriented capabilities, 
         that used for both on the client-side and server-side that allows you to 
         make web pages interactive.
+        
+        JavaScript is a case sensitive language.  The language keywords, variables, function names, and any other identifiers must always be typed with a         consistent capitalization of letters.
 
    **[⬆ Back to Top](#table-of-contents-for-theoretical-questions)**
    
   ---
 
+2. ### What are the scopes of a variable in JavaScript?
+
+The scope of a variable is the region of your program in which it is defined. JavaScript variable will have only two scopes.
+
+• Global Scope − A global variable has global scope which means it is visible everywhere in your JavaScript code.
+  Example: window object has global scope it's accessible everywhere.
+
+• Local Scope (Block Scope) − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function.
+  Example: when variable declear with let or const key word in JavaScript. it will accessible within block.
+
+**[⬆ Back to Top](#table-of-contents-for-theoretical-questions)**
+   
+  ---
+  
 1. ### What is the output of below code?
 
 ```javascript
