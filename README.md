@@ -53,11 +53,12 @@
     =>  In JavaScript if you try to use a variable that doesn't exist and has not been declared, 
         then JavaScript will throw an error var name is not defined and the script will stop 
         executing thereafter. But If you use typeof undeclared_variable then it will return undefined.
-
+        
         Before starting further discussion let's understand the difference between declaration and definition.
-
-        var x is a declaration because we are not defining what value it holds yet, but we are declaring 
+        
+        `var x` is a declaration because we are not defining what value it holds yet, but we are declaring 
         its existence and the need for memory allocation.
+
 
         var x; // declaring x
         console.log(x); // output: undefined
