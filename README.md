@@ -137,7 +137,7 @@
   
   ### Logical Questions
   
- ### 1. What is the output of below code?
+ 1. ### What is the output of below code?
 
     getMessage();
     
@@ -167,7 +167,7 @@
 
 ---
 
-### 2. For which value of `x` the results of the following statements are not the same?
+2. ### For which value of `x` the results of the following statements are not the same?
 
     ```javascript
     if( x <= 100 ) {...}
@@ -195,7 +195,7 @@
 
 ---
 
-## 3. What will be the output of the following code?
+3. ## What will be the output of the following code?
 
     ```javascript
     var x = 1;
