@@ -12,7 +12,7 @@
 | 2   | [What are the scopes of a variable in JavaScript](#What-are-the-scopes-of-a-variable-in-JavaScript) |
 | 3   | [What is the difference between undefined and not defined in JavaScript](#What-is-the-difference-between-undefined-and-not-defined-in-JavaScript)           |
 | 4   | [What is closure in javascript](#what-is-closure-in-javascript)  |
-| 5   | [What is the difference between == and === operators](#What-is-the-difference-between-==-and-===-operators)  
+| 5   | [What is the difference between == and === operators](#what-is-the-difference-between--and--operators)  
 
 ---
 
