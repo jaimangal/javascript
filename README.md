@@ -22,7 +22,7 @@
 | 1   | [What is the output of below code](#What-is-the-output-of-below-code)   |                                     
 | 2   | [For which value of `x` the results of the following statements are not the same](#For-which-value-of-x-the-results-of-the-following-statements-are-not-the-same)      |
 | 3   | [What will be the output of the following code](#What-will-be-the-output-of-the-y-in-following-code)
-| 4   | [What will be the output of the emp1 company](#What-will-be-the-output-of-the-emp1 company)      |
+| 4   | [What will be the output of the emp1 company](#What-will-be-the-output-of-the-emp1-company)      |
 | 5   | [What will be the output of the y in following code](#What-will-be-the-output-of-the-y-in-following-code)
 
 ---
