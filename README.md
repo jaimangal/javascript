@@ -178,9 +178,9 @@
   
  1. ### What is the output of below code?
 
+    ```javascript
     getMessage();
     
-    ```javascript
     var getMessage = () => {
       console.log("Good morning");
     };
