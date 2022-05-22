@@ -65,7 +65,7 @@ var getMessage = () => {
 
 ##### Answer: 2
 
-Hoisting will move variables and functions to be the top of scope. Even though getMessage is an arrow function the above function will considered as a varible due to it's variable declaration or assignment. So the variables will have undefined value in memory phase and throws an error '`getMessage` is not a function' at the code execution phase.
+Hoisting will move variables and functions to be the top of scope. Even though getMessage is an arrow function the above function will considered as a varible due to it's variable declaration or assignment. (Like all other functions in Javascript, the arrow function is not hoisting the main reason that you cannot call them before initialization.) So the variables will have undefined value in memory phase and throws an error '`getMessage` is not a function' at the code execution phase.
 
 </p>
 
