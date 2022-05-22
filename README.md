@@ -74,7 +74,7 @@
 
     A variable can be neither declared nor defined. When we try to reference such variable then the result will be `not defined`.
 
-    console.log(y);  // Output: ReferenceError: y is not defined
+    ```javascript console.log(y);  // Output: ReferenceError: y is not defined
  
  **[⬆ Back to Top](#table-of-contents-for-theoretical-questions)**
    
