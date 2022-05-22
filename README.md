@@ -25,9 +25,7 @@
 
      => JavaScript is a lightweight, interpreted programming language with object-oriented capabilities, 
         that used for both on the client-side and server-side that allows you to 
-        make web pages interactive.
-        
-        JavaScript is a case sensitive language.  The language keywords, variables, function names, and any other identifiers must always be typed with a         consistent capitalization of letters.
+        make web pages interactive. </br> JavaScript is a case sensitive language. The language keywords, variables, function names, and any other               identifiers must always be typed with a consistent capitalization of letters.
 
    **[⬆ Back to Top](#table-of-contents-for-theoretical-questions)**
    
