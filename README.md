@@ -80,7 +80,7 @@
    
   ---
   
-  #### Logical Questions
+  ### Logical Questions
   
 1. ### What is the output of below code?
 
