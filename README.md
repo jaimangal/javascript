@@ -22,7 +22,7 @@
 | 1   | [What is the output of below code](#What-is-the-output-of-below-code)   |                                     
 | 2   | [For which value of `x` the results of the following statements are not the same](#For-which-value-of-x-the-results-of-the-following-statements-are-not-the-same)      |
 | 3   | [What will be the output of the following code](#What-will-be-the-output-of-the-y-in-following-code)
-| 4   | [What will be the output of the emp1.company](#What-will-be-the-output-of-the-emp1.company )      |
+| 4   | [What will be the output of the emp1.company](#What-will-be-the-output-of-the-emp1.company)      |
 | 5   | [What will be the output of the y in following code](#What-will-be-the-output-of-the-y-in-following-code)
 
 ---
@@ -220,7 +220,31 @@
 
 ---
 
-4. ## What will be the output of the `y` in following code?
+4. ## What will be the output of the emp1.company?
+
+    ```javascript
+    var Employee = {
+      company: 'xyz'
+    }
+    var emp1 = Object.create(Employee);
+    delete emp1.company
+    console.log(emp1.company);
+    ```
+
+    <details><summary><b>Answer</b></summary>
+     <p> 
+    The code above will output `xyz` as output. Here `emp1` object got company as **prototype** property. delete operator doesn't delete prototype           property.
+
+    `emp1` object doesn't have **company** as its own property. you can test it `console.log(emp1.hasOwnProperty('company')); //output : false` However,     we can delete company property directly from `Employee` object using `delete Employee.company` or we can also delete from `emp1` object using             `__proto__` property `delete emp1.__proto__.company`.
+    </p>
+
+    </details>
+    
+     **[⬆ Back to Top](#table-of-contents-for-logical-questions)**
+
+---
+
+5. ## What will be the output of the `y` in following code?
 
 ```javascript
 var z = 1, y = z = typeof y;
@@ -246,26 +270,3 @@ y = z;
 
 ---
 
-5. ## What will be the output of the emp1.company?
-
-    ```javascript
-    var Employee = {
-      company: 'xyz'
-    }
-    var emp1 = Object.create(Employee);
-    delete emp1.company
-    console.log(emp1.company);
-    ```
-
-    <details><summary><b>Answer</b></summary>
-     <p> 
-    The code above will output `xyz` as output. Here `emp1` object got company as **prototype** property. delete operator doesn't delete prototype           property.
-
-    `emp1` object doesn't have **company** as its own property. you can test it `console.log(emp1.hasOwnProperty('company')); //output : false` However,     we can delete company property directly from `Employee` object using `delete Employee.company` or we can also delete from `emp1` object using             `__proto__` property `delete emp1.__proto__.company`.
-    </p>
-
-    </details>
-    
-     **[⬆ Back to Top](#table-of-contents-for-logical-questions)**
-
----
