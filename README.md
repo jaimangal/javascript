@@ -82,6 +82,8 @@ console.log(y);  // Output: ReferenceError: y is not defined
    
   ---
   
+  ##Logical Questions
+  
 1. ### What is the output of below code?
 
 ```javascript
