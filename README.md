@@ -137,7 +137,7 @@
   
   ### Logical Questions
   
-1. ### What is the output of below code?
+ ### 1. What is the output of below code?
 
     getMessage();
     
@@ -167,7 +167,7 @@
 
 ---
 
-2. ### For which value of `x` the results of the following statements are not the same?
+### 2. For which value of `x` the results of the following statements are not the same?
 
     ```javascript
     if( x <= 100 ) {...}
@@ -189,6 +189,28 @@
 
 
     </p>
+
+    </details>
+
+ **[⬆ Back to Top](#table-of-contents-for-logical-questions)**
+
+---
+
+## 3. What will be the output of the following code?
+
+    ```javascript
+    var x = 1;
+    var output = (function() {
+      delete x;
+      return x;
+    })();
+
+    console.log(output);
+    ```
+    <details><summary><b>Answer</b></summary>
+
+    The code above will output `1` as output. `delete` operator is used to delete a property from an object. Here `x` is not an object it's **global         variable** of type `number`.
+
 
     </details>
 
