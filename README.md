@@ -15,8 +15,8 @@
 
 1. ### What is JavaScript
 
-=> JavaScript is a lightweight, interpreted programming language with object-oriented capabilities, 
-that used for both on the client-side and server-side that allows you to 
-make web pages interactive
+  =>JavaScript is a lightweight, interpreted programming language with object-oriented capabilities, 
+    that used for both on the client-side and server-side that allows you to 
+    make web pages interactive.
 
-      **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Back to Top](#table-of-contents)**
