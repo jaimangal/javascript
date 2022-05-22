@@ -172,9 +172,9 @@
     ```javascript
     if( x <= 100 ) {...}
     if( !(x > 100) ) {...}
-    
     ```
     <details><summary><b>Answer</b></summary>
+    
     <p>
 
     ##### Answer: NaN
@@ -186,7 +186,6 @@
 
     This is why you need to pay attention when you deal with numeric variables. `NaN` can’t be equal, less than or more than any other 
     numeric value, so the only reliable way to check if the value is `NaN`, is to use the `isNaN()` function.
-
 
     </p>
 
@@ -208,9 +207,9 @@
     console.log(output);
     ```
     <details><summary><b>Answer</b></summary>
-
+    <p>
     The code above will output `1` as output. `delete` operator is used to delete a property from an object. Here `x` is not an object it's **global         variable** of type `number`.
-
+    </p>
 
     </details>
 
