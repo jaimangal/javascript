@@ -10,7 +10,7 @@
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | [What is JavaScript](#what-is-javascript)                                         |
 | 2   | [What are the scopes of a variable in JavaScript](#What-are-the-scopes-of-a-variable-in-JavaScript) |
-| 2   | [What's the difference between undefined and not defined in JavaScript](#What's-the-difference-between-undefined-and-not-defined-in-JavaScript) 
+| 2   | [What's the difference between undefined and not defined in JavaScript](#What-is-the-difference-between-undefined-and-not-defined-in-JavaScript) 
 
 ---
 
@@ -49,23 +49,7 @@ The scope of a variable is the region of your program in which it is defined. Ja
   
  3. ### What's the difference between undefined and not defined in JavaScript?
  
-        In JavaScript if you try to use a variable that doesn't exist and has not been declared, then JavaScript will throw an error var name is not             defined and the script will stop executing thereafter. But If you use typeof undeclared_variable then it will return undefined.
-
-        Before starting further discussion let's understand the difference between declaration and definition.
-
-        var x is a declaration because we are not defining what value it holds yet, but we are declaring its existence and the need for memory                   allocation.
-
-        var x; // declaring x
-        console.log(x); // output: undefined
-        var x = 1 is both declaration and definition, here declaration and assignment of value happen inline for variable x—what we are doing is called           "initialisation". In JavaScript both variable declarations and function declarations go to the top of the scope in which they are declared, then         assignment happens—this series of events is called "hoisting".
-
-        A variable can be declared but not defined. When we try to access it, It will result undefined.
-
-        var x; // Declaration
-        typeof x === 'undefined'; // Will return true
-        A variable can be neither declared nor defined. When we try to reference such variable then the result will be not defined.
-
-        console.log(y);  // Output: ReferenceError: y is not defined
+      
  
  **[⬆ Back to Top](#table-of-contents-for-theoretical-questions)**
    
