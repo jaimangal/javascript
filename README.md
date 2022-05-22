@@ -10,7 +10,8 @@
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | [What is JavaScript](#what-is-javascript)                                         |
 | 2   | [What are the scopes of a variable in JavaScript](#What-are-the-scopes-of-a-variable-in-JavaScript) |
-| 3   | [What is the difference between undefined and not defined in JavaScript](#What-is-the-difference-between-undefined-and-not-defined-in-JavaScript) 
+| 3   | [What is the difference between undefined and not defined in JavaScript](#What-is-the-difference-between-undefined-and-not-defined-in-JavaScript)           |
+| 4   | [What is closure in javascript](#what-is-closure-in-javascript)  
 
 ---
 
@@ -77,6 +78,14 @@
     console.log(y);  // Output: ReferenceError: y is not defined
  
  **[⬆ Back to Top](#table-of-contents-for-theoretical-questions)**
+   
+  ---
+  
+4. ### What is “closure” in javascript?
+
+
+
+**[⬆ Back to Top](#table-of-contents-for-theoretical-questions)**
    
   ---
   
