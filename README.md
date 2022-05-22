@@ -16,7 +16,7 @@
 
 | No. | Questions                                                                                                                                                         |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | [What is JavaScript](#What is the output of below code)                                         |
+| 1   | [What is the output of below code](#What-is-the-output-of-below-code)                                         |
 | 2   | [What is prototype chain](#what-is-a-prototype-chain)                                                                                                                                                                                                            
 
 
