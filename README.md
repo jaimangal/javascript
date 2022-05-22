@@ -10,7 +10,7 @@
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | [What is JavaScript](#what-is-javascript)                                         |
 | 2   | [What are the scopes of a variable in JavaScript](#What-are-the-scopes-of-a-variable-in-JavaScript) |
-| 2   | [What is the difference between undefined and not defined in JavaScript](#What-is-the-difference-between-undefined-and-not-defined-in-JavaScript) 
+| 3   | [What is the difference between undefined and not defined in JavaScript](#What-is-the-difference-between-undefined-and-not-defined-in-JavaScript) 
 
 ---
 
