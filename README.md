@@ -13,7 +13,7 @@
 | 435 | [What is throttling?](#what-is-throttling)
 
 
-1. ### What is JavaScript
+1. ### What is JavaScript?
 
      => JavaScript is a lightweight, interpreted programming language with object-oriented capabilities, 
         that used for both on the client-side and server-side that allows you to 
