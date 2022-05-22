@@ -81,7 +81,7 @@
   ---
   
   ### Logical Questions
-  </ br>
+  
 1. ### What is the output of below code?
 
     getMessage();
