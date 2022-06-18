@@ -329,7 +329,7 @@ y = z;
  **[⬆ Back to Top](#table-of-contents-for-logical-questions)**
  
  
-6. ##Write a add function which will work properly when invoked with following syntax.
+6. ## Write a add function which will work properly when invoked with following syntax.
 
 ```javascript
 console.log(add(5)(4)(6)); // output : 15
