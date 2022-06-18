@@ -50,6 +50,11 @@
    • Local Scope (Block Scope) − A local variable will be visible only within a function where it is defined.
      Function parameters are always local to that function. </br>
      Example: when variable declear with let or const key word in JavaScript. it will accessible within block.
+     
+      ```javascript
+    var x; // declaring x
+    console.log(x); // output: undefined
+    ```
 
 **[⬆ Back to Top](#table-of-contents-for-theoretical-questions)**
    
