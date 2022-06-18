@@ -52,30 +52,26 @@
      Example: when variable declear with let or const key word in JavaScript. it will accessible within block.
      
       ```javascript
-   // program showing block-scoped concept
-// global variable
-let a = 'Hello';
+      
+        let a = 'Hello';  // global variable
 
-function greet() {
+        function greet() {
+            let b = 'World';  // local variable
 
-    // local variable
-    let b = 'World';
+            console.log(a + ' ' + b);
 
-    console.log(a + ' ' + b);
+            if (b == 'World') {
 
-    if (b == 'World') {
+                let c = 'hello';  // block-scoped variable
 
-        // block-scoped variable
-        let c = 'hello';
+                console.log(a + ' ' + b + ' ' + c);
+            }
 
-        console.log(a + ' ' + b + ' ' + c);
-    }
+            console.log(a + ' ' + b + ' ' + c); // variable c cannot be accessed here
+        }
 
-    // variable c cannot be accessed here
-    console.log(a + ' ' + b + ' ' + c);
-}
-
-greet();
+        greet();
+        
     ```
 
 **[⬆ Back to Top](#table-of-contents-for-theoretical-questions)**
