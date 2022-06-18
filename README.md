@@ -24,7 +24,8 @@
 | 2   | [For which value of `x` the results of the following statements are not the same](#For-which-value-of-x-the-results-of-the-following-statements-are-not-the-same)      |
 | 3   | [What will be the output of the following code](#What-will-be-the-output-of-the-y-in-following-code)
 | 4   | [What will be the output of the empOne company](#What-will-be-the-output-of-the-empOne-company)      |
-| 5   | [What will be the output of the y in following code](#What-will-be-the-output-of-the-y-in-following-code)
+| 5   | [What will be the output of the y in following code](#What-will-be-the-output-of-the-y-in-following-code)|
+| 6   | [Write a add function which will work properly when invoked with following syntax](#Write-a-add-function-which-will-work-properly-when-invoked-with-following-syntax)
 
 ---
 
@@ -326,6 +327,38 @@ y = z;
 
 
  **[⬆ Back to Top](#table-of-contents-for-logical-questions)**
+ 
+ 
+6. ##Write a add function which will work properly when invoked with following syntax.
 
+```javascript
+console.log(add(5)(4)(6)); // output : 15
+console.log(add(8)(3)(9)); // output : 20
+```
+<details>
+
+```javascript
+function add (x) {
+  return function (y) { // anonymous function
+    return function (z) { // anonymous function
+      return x + y + z;
+    };
+  };
+}
+```
+
+Here the `add` function accepts the first argument and returns an anonymous function which then takes the second parameter and returns one last anonymous function which finally takes the third and final parameter; the last function then sum `x`, `y` and `z`, and returns the result of the operation.
+
+In Javascript, a function defined inside another function has access to the outer function's scope and can consequently return, interact with or pass on to other functions, the variables belonging to the scopes that incapsulate it.
+
+- A function is an instance of the Object type
+- A function can have properties and has a link to its constructor method
+- A function can be stored as a variable
+- A function can be passed as a parameter to another function
+- A function can be returned by another function
+
+</details>
+
+**[⬆ Back to Top](#table-of-contents-for-logical-questions)**
 ---
 
