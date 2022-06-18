@@ -45,11 +45,11 @@
 
    • Global Scope − A global variable has global scope which means it is visible everywhere in your 
      JavaScript code. </br>
-     Example: window object has global scope it's accessible everywhere.
+     Example: `window` object has global scope it's accessible everywhere.
 
    • Local Scope (Block Scope) − A local variable will be visible only within a function where it is defined.
      Function parameters are always local to that function. </br>
-     Example: when variable declear with let or const key word in JavaScript. it will accessible within block.
+     Example: when variable declear with `let` or `const` key word in JavaScript. it will accessible within block.
      
       ```javascript
       
