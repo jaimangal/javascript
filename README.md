@@ -27,6 +27,7 @@
 | 5   | [What will be the output of the y in following code](#What-will-be-the-output-of-the-y-in-following-code)|
 | 6   | [Write a add function which will work properly when invoked with following syntax](#Write-a-add-function-which-will-work-properly-when-invoked-with-following-syntax)   |
 | 7   | [What is the output of d](#What-is-the-output-of-d)   |
+| 8   | [What is the output of these three console](#What-is-the-output-of-these-three-console)   |
 
 ---
 
@@ -398,5 +399,41 @@ When you change one object, you change all of them.
 
 ---
 
+
+ **[⬆ Back to Top](#table-of-contents-for-logical-questions)**
+ 
+ 
+ 8. ## What is the output of these three console.
+
+```javascript
+let a = 3;
+let b = new Number(3);
+let c = 3;
+
+console.log(a == b);
+console.log(a === b);
+console.log(b === c);
+```
+
+- A: `true` `false` `true`
+- B: `false` `false` `true`
+- C: `true` `false` `false`
+- D: `false` `true` `true`
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: C
+
+`new Number()` is a built-in function constructor. Although it looks like a number, it's not really a number: it has a bunch of extra features and is an object.
+
+When we use the `==` operator (Equality operator), it only checks whether it has the same _value_. They both have the value of `3`, so it returns `true`.
+
+However, when we use the `===` operator (Strict equality operator), both value _and_ type should be the same. It's not: `new Number()` is not a number, it's an **object**. Both return `false.`
+
+</p>
+</details>
+
+---
 
  **[⬆ Back to Top](#table-of-contents-for-logical-questions)**
