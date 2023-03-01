@@ -26,7 +26,7 @@
 | 4   | [What will be the output of the empOne company](#What-will-be-the-output-of-the-empOne-company)      |
 | 5   | [What will be the output of the y in following code](#What-will-be-the-output-of-the-y-in-following-code)|
 | 6   | [Write a add function which will work properly when invoked with following syntax](#Write-a-add-function-which-will-work-properly-when-invoked-with-following-syntax)|
-| 7   | [7. What's the output?](#7.-What-is-the-output?)|
+| 7   | [7-What's the output?](#7-What-is-the-output?)|
 
 ---
 
