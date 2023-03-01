@@ -26,6 +26,7 @@
 | 4   | [What will be the output of the empOne company](#What-will-be-the-output-of-the-empOne-company)      |
 | 5   | [What will be the output of the y in following code](#What-will-be-the-output-of-the-y-in-following-code)|
 | 6   | [Write a add function which will work properly when invoked with following syntax](#Write-a-add-function-which-will-work-properly-when-invoked-with-following-syntax)|
+| 7   | [7. What's the output?](#7.-What-is-the-output?)|
 
 ---
 
@@ -362,3 +363,40 @@ In Javascript, a function defined inside another function has access to the oute
 **[⬆ Back to Top](#table-of-contents-for-logical-questions)**
 ---
 
+###### 7. What's the output?
+
+```javascript
+    let c = { greeting: 'Hey!' };
+    let d;
+
+    d = c;
+    c.greeting = 'Hello';
+    console.log(d.greeting);
+```
+
+- A: `Hello`
+- B: `Hey!`
+- C: `undefined`
+- D: `ReferenceError`
+- E: `TypeError`
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: A
+
+In JavaScript, all objects interact by _reference_ when setting them equal to each other.
+
+First, variable `c` holds a value to an object. Later, we assign `d` with the same reference that `c` has to the object.
+
+<img src="https://i.imgur.com/ko5k0fs.png" width="200">
+
+When you change one object, you change all of them.
+
+</p>
+</details>
+
+---
+
+
+ **[⬆ Back to Top](#table-of-contents-for-logical-questions)**
